@@ -53,10 +53,12 @@ button {
     font-family: 'Noto Serif Display', serif;
     font-size: 18px;
   }
-#nInput inpu::placeholder {
+#nInput input::placeholder {
     text-align: center;
+    color:#c0b0a9;
 }
 
 #button-panel{
     padding-left: 587px;
 }
+body { -webkit-font-smoothing: subpixel-antialiased; }
