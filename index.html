@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Number Counter</title>
+    </head>
+    <body>
+        <h1 id="counter-display">0</h1>
+        <div id="button-panel">
+            <button onclick = add1()>+1</button>
+            <button onclick = subtract1()>-1</button>
+            <button onclick = add5()>+5</button>
+            <button onclick = subtract5()>-5</button>
+            <br><br>
+            <input id="nInput" type="number" placeholder = "Custom">
+            <button onclick = addInput()>+</button>
+            <button onclick = subtractInput()>-</button>
+            <br><br>
+            <button id='reset-button' onclick = resetCounter()>Reset</button>
+        </div>
+        <script src = "index.js"></script>
+    </body>
+</html>

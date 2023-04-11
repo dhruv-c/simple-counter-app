@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400;500&display=swap');
+#counter-display{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 125px;
+    text-align: center;
+    color: #2E2927;
+}
+
+body {
+    background-color: #FFFCF4;
+  }
+
+button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #e3bca1 ;
+    color:#2E2927;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 23px;
+  }
+
+#reset-button{
+    border-radius: 25px;
+    width: 80px;
+    height: 60px;
+    border: none;
+    background-color: #e3bca1 ;
+    color: #2E2927;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 23px;
+}
+  
+  button:hover,
+  button:focus, #reset-button:hover {
+    background-color: #edd8c672;
+    outline: none;
+    cursor: pointer;
+  }
+
+#nInput {
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+    border: none;
+    background-color: #e3bca1 ;
+    color:#2E2927;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 18px;
+  }
+#nInput inpu::placeholder {
+    text-align: center;
+}
+
+#button-panel{
+    padding-left: 587px;
+}
